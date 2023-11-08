@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: 'Gilroy';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 400;
+  src: url('./assets/fonts/Gilroy-Regular.ttf');
+}
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 700;
+  src: url('./assets/fonts/Gilroy-Bold.ttf');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
