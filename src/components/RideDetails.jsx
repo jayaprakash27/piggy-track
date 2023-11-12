@@ -92,7 +92,7 @@ const RideDetails = ({ riders, driverInfo }) => {
 
       <div className=" video-viewer m-1 p-1 w-full flex flex-col items-center justify-between">
         <h2 className=" text-lg text-pr-violet mb-3 font-semibold">
-          Video Feed
+          Video feed
         </h2>
         <div className="video-viewer-1 h-60 z-20 relative w-full bg-black rounded-md flex gap-2 justify-center items-center">
           {videoIsON ? (
