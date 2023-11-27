@@ -1,5 +1,4 @@
 import React, { useState, Fragment } from "react";
-import piggyLogo from '../assets/images/piggy-logo.svg'
 import driverImg from "../assets/images/driver-50.png";
 import vehicleIcon from "../assets/images/vehicle.svg";
 import kidIcon from "../assets/images/kidart.svg";
@@ -145,7 +144,7 @@ const RideDetails = ({ riders, driverInfo }) => {
                   <section className=" flex flex-col mt-3 items-center">
                     <div className="container flex flex-col flex-wrap md:flex-row justify-center items-center max-w-5xl mx-auto">
                       { riders.map((rider) => (
-                        <div className="grid gap-2 mx-8 my-3 max-w-sm">
+                        <div key={rider.id} className="grid gap-2 mx-8 my-3 max-w-sm">
                         <div className="col-span-12 sm:col-span-3">
                           <div className="text-center sm:text-left">
                             <h3 className="text-xl font-semibold"> {rider.name} </h3>

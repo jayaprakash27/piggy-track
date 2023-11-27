@@ -4,6 +4,7 @@ import { MapViewer, RideDetails, Topbar } from './components';
 
 const ridersInfo = [
   {
+  id: 1,
   name: 'Reyaansh',
   gender: 'Male',
   fromName: 'School',
@@ -12,6 +13,7 @@ const ridersInfo = [
   toAdd: 'B-5/304 Tulip Violet Ggn',
 },
 {
+  id: 2,
 name: 'Reyaansh',
 gender: 'Male',
 fromName: 'School',
@@ -20,6 +22,7 @@ toName: 'Home',
 toAdd: 'B-5/304 Tulip Violet Ggn',
 },
 {
+  id: 3,
 name: 'Reyaansh',
 gender: 'Male',
 fromName: 'School',
@@ -42,7 +45,7 @@ const driverInfo = {
 }
 
 function App() {
-  const [riders, setRiders] = useState(ridersInfo)
+  const [riders, setRiders] = useState(ridersInfo);
   return (
     <div className=' w-screen h-screen flex flex-col md:flex-row'>
       <Topbar />
